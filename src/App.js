@@ -1,5 +1,5 @@
 import { Form } from "./Component/Form";
-
+import  Add  from "./Component/Add";
 function App() {
  
   return (
@@ -8,7 +8,7 @@ function App() {
       <div className="form-and-todo-box">
       
         <Form/>
-    
+    <Add/>
       </div>
     </div>
   );
